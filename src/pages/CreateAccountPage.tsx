@@ -100,7 +100,7 @@ export default function CreateAccountPage() {
             <input
               type="text"
               name="phone"
-              maxLength={9}
+              maxLength={10}
               placeholder="Phone Number"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
