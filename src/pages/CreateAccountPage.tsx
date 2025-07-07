@@ -18,7 +18,7 @@ export default function CreateAccountPage() {
   };
 
   const validatePhone = (value: string) => {
-    return /^\d{9}$/.test(value);
+    return /^\d{10}$/.test(value);
   };
 
   const handleSubmit = (e: React.FormEvent) => {
